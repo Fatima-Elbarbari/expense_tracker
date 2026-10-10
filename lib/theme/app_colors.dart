@@ -9,6 +9,7 @@ class AppColors {
   // الخلفيات
   static const Color background = Color(0xFFF1F3FF);
   static const Color surface = Color(0xFFFFFFFF);
+  static const Color splashTop = Color(0xFF1A237E);
 
   // ألوان البوكسات الخمسة
   static const Color essentials = Color(0xFF3F51B5);
