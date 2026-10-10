@@ -1,17 +1,34 @@
-# expense_tracker
+# SpendWise
 
-A new Flutter project.
+**TRACK. SAVE. THRIVE.**
 
-## Getting Started
+A personal budget planner built with Flutter. Enter your monthly salary once, and
+the app splits it into 5 budget buckets, then tracks your spending against each one.
 
-This project is a starting point for a Flutter application.
+## Budget Buckets (default split)
 
-A few resources to get you started if this is your first Flutter project:
+| Bucket | Share |
+|---|---|
+| Essentials | 55% |
+| Short-term Plan | 15% |
+| Outings | 12.5% |
+| Investment | 12.5% |
+| Charity | 5% |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+The percentages are editable in the app. They are suggestions, not financial advice.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Planned Features
+
+- Monthly salary input and automatic budget split
+- Warning when essentials spending approaches the limit
+- Add expenses and assign them to a bucket
+- Dashboard with spending overview
+- Local data storage
+
+## Tech
+
+- Flutter and Dart
+
+## Status
+
+In progress. I am building it step by step while learning Flutter.
